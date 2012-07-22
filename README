@@ -1,0 +1,12 @@
+Setup virtualenv.
+pip install -r requirements.txt
+Setup environment variables for Kaltura and Pubnub services:
+export PARTNER_ID=xxx 
+export ADMIN_SECRET=xxx
+export USER_NAME=xxx
+
+export PUBLISH_KEY=xxxx
+export SUBSCRIBE_KEY=xxx
+export SECRET_KEY=xxx
+
+On Heroku use heroku config:add.
